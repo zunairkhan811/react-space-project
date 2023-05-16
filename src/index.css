@@ -49,10 +49,32 @@ code {
 
 .navbar {
   padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 hr {
   margin-top: 14px;
   border: none;
   border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links li {
+  list-style: none;
+  margin: auto 14px;
+  padding: 6px;
+}
+
+.nav-links li a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.nav-links li .active {
+  text-decoration: underline;
 }

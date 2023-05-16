@@ -1,15 +1,19 @@
+import { NavLink } from 'react-router-dom';
 import Logo from '../images/logo.png';
 
 const Navbar = () => (
   <nav className="navbar">
     <div className="logo">
-      <a href="#f">
+      <NavLink to="/">
         <img src={Logo} alt="Space Ship Logo" className="logo-img" />
         Space Travelers&apos; Hub
-      </a>
+      </NavLink>
     </div>
-
-    <hr />
+    <ul className="nav-links">
+      <li><NavLink to="/">Rocket</NavLink></li>
+      <li><NavLink to="/mission">Missions</NavLink></li>
+      <li><NavLink to="/myprofile">My Profile</NavLink></li>
+    </ul>
   </nav>
 );
 
