@@ -200,7 +200,7 @@ button .join-mission {
   margin-top: 7px;
 }
 
-.rocket-info button {
+.reserve-btn {
   color: white;
   background-color: #5656e1;
   border: 1px solid;
@@ -209,4 +209,18 @@ button .join-mission {
   width: 140px;
   padding: 9px;
   margin-top: 8px;
+}
+
+.d-reserve {
+  color: white;
+  background-color: #28a188;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 76px;
+  padding: 2px;
+  margin-right: 6px;
+}
+
+.c-reserve {
+  display: none;
 }
