@@ -29,7 +29,7 @@ export const MissionsSlice = createSlice({
       })
 
       .addCase(fetchMissions.fulfilled, (state, action) => {
-        console.log(action);
+        // console.log(action);
         state.isLoading = false;
         state.missions = action.payload;
       })

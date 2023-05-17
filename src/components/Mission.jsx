@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 
 const Mission = () => {
   const { missions } = useSelector((state) => state.missions);
-  console.log(missions);
+  // console.log(missions);
   return (
     <div className="all-missions">
       <table className="missions-table">
