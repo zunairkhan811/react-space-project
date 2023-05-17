@@ -171,16 +171,41 @@ button .join-mission {
 
 .card-container{
   display: flex;
-  border: 1px solid brown;
-  padding: 30px 50px;
+  flex-direction: column;
+  /* border: 1px solid brown; */
+  padding: 30px 20px;
   margin: 20px 20px;
 }
 
 .card-item{
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
-  padding: 40px;
+  padding: 10px;
   margin-bottom: 8px;
+}
+
+.rocket-image img{
+  width: 290px;
+}
+
+.rocket-info{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.rocket-info p{
+  margin-top: 7px;
+}
+
+.rocket-info button{
+    color: white;
+    background-color: #5656e1;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 140px;
+    padding: 9px;
+    margin-top: 8px;
 }

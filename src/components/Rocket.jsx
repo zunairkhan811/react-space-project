@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
-import { useState } from 'react';
+// import { useState } from 'react';
 
 const Rockets = () => {
-  const [reserve, setReserve] = useState('Reserve Rocket');
+//   const [reserve, setReserve] = useState('Reserve Rocket');
   const data = useSelector((state) => state.rockets);
   console.log(data.rockets);
   return (
@@ -15,7 +15,7 @@ const Rockets = () => {
           <div className="rocket-info">
             <h1>{item.rocket_name}</h1>
             <p>{item.description}</p>
-            <button type="button">{reserve}</button>
+            <button type="button">Reserve Rocket</button>
           </div>
         </div>
       ))}
