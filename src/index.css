@@ -168,3 +168,19 @@ button .join-mission {
   border-radius: 8px;
   color: rgb(80, 79, 79);
 }
+
+.card-container{
+  display: flex;
+  border: 1px solid brown;
+  padding: 30px 50px;
+  margin: 20px 20px;
+}
+
+.card-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px;
+  margin-bottom: 8px;
+}
