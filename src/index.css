@@ -105,37 +105,31 @@ td {
   border: 1px solid rgb(196, 194, 194);
 }
 
+th {
+  padding: 8px;
+  text-align: start;
+  font-size: 18px;
+}
+
 thead th:nth-child(1) {
   width: 15%;
-  /* background-color: red; */
 }
 
 thead th:nth-child(2) {
   width: 60%;
-  /* background-color: blue; */
 }
 
 thead th:nth-child(3) {
   width: 13%;
-  /* background-color: green; */
 }
 
 tr {
   width: 100%;
-  
 }
 
 thead th:nth-child(4) {
   width: 15%;
   text-align: center;
-  /* background-color: yellow; */
-  /* padding: 0 12%; */
-}
-
-th {
-  padding: 8px;
-  text-align: start;
-  font-size: 18px;
 }
 
 td {
@@ -167,11 +161,10 @@ button.not-amember {
   border-radius: 4px;
 }
 
-button .join-mission{
+button .join-mission {
   border: 1px solid rgb(80, 79, 79);
   background-color: inherit;
   padding: 8px;
   border-radius: 8px;
   color: rgb(80, 79, 79);
 }
-
