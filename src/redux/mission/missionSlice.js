@@ -15,7 +15,6 @@ export const fetchMissions = createAsyncThunk('missions/fetchMissions', async ()
       description: mission.description,
       reserved: false,
     }));
-    console.log(resultArr);
     return resultArr;
   } catch (error) {
     throw new Error('Failed to fetch missions.');
