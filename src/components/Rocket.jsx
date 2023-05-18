@@ -6,11 +6,9 @@ import fetchRockets from '../redux/rocket/fetchAPi';
 const Rockets = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.rockets);
-  console.log(data)
   useEffect(() => {
-    dispatch(fetchRockets());
+    if (!data.rockets.length) dispatch(fetchRockets());
   }, [dispatch]);
-  //   console.log(data.rockets);
   return (
     <div className="card-container">
       {data.rockets.map((item) => (
