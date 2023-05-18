@@ -1,9 +1,14 @@
 import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
 import { reserveRocket } from '../redux/rocket/rocketSlice';
+import fetchRockets from '../redux/rocket/fetchAPi';
 
 const Rockets = () => {
   const dispatch = useDispatch();
   const data = useSelector((state) => state.rockets);
+  useEffect(() => {
+    dispatch(fetchRockets());
+  }, [dispatch]);
   //   console.log(data.rockets);
   return (
     <div className="card-container">
