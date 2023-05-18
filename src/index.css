@@ -254,9 +254,8 @@ button.active-member {
 }
 
 .rocket-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
 
