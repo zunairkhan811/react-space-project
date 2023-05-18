@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
-const initialState = [];
+const initialState = localStorage.getItem('missions') ? JSON.parse(localStorage.getItem('missions')) : [];
 
 const url = 'https://api.spacexdata.com/v3/missions';
 
@@ -15,6 +15,7 @@ export const fetchMissions = createAsyncThunk('missions/fetchMissions', async ()
       description: mission.description,
       reserved: false,
     }));
+    localStorage.setItem('missions', JSON.stringify(resultArr));
     return resultArr;
   } catch (error) {
     throw new Error('Failed to fetch missions.');
@@ -28,7 +29,9 @@ export const MissionsSlice = createSlice({
   reducers: {
     joinMission: (state, action) => state.map((mission) => {
       if (mission.id === action.payload) {
-        return { ...mission, reserved: !mission.reserved };
+        const updatedMission = { ...mission, reserved: !mission.reserved };
+        localStorage.setItem('missions', JSON.stringify(state));
+        return updatedMission;
       }
       return mission;
     }),
