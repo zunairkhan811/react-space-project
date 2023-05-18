@@ -14,10 +14,8 @@ export const rocketsSlice = createSlice({
     reserveRocket: (state, { payload }) => {
       const rockets = state.rockets.map((rocket) => {
         if (rocket.id === payload) return { ...rocket, reserved: !rocket.reserved };
-
         return rocket;
       });
-      // console.log(rockets)
       return { ...state, rockets };
     },
   },
