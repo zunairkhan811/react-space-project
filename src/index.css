@@ -9,14 +9,14 @@ body {
   font-family:
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -28,7 +28,7 @@ code {
     Menlo,
     Monaco,
     Consolas,
-    'Courier New',
+    "Courier New",
     monospace;
 }
 
@@ -247,8 +247,39 @@ button.active-member {
   display: none;
 }
 
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.rocket-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr auto;
+  width: 50%;
+}
+
+.rocket-container h1 {
+  font-family: sans-serif;
+  padding: 10px 0;
+  margin: 4px 1px;
+}
+
+.rocket-container ul {
+  list-style: none;
+}
+
+.rocket-container ul li {
+  padding: 16px 10px;
+  margin: 0 2px;
+  border: 1px solid rgb(240, 240, 240);
+}
+
 .my-profile {
   padding: 12px 36px;
+  width: 50%;
   display: flex;
 }
 
