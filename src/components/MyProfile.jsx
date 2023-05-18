@@ -10,7 +10,7 @@ const MyProfile = () => {
       <div className="profile-container">
         <div className="my-profile">
           <div className="my-missions">
-            <h2 className="missions-title">My Missions</h2>
+            <h1 className="missions-title">My Missions</h1>
             <table className="missions-table">
               <tbody>
                 {missions && missions.map((mission) => (
