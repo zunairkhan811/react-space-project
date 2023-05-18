@@ -24,6 +24,7 @@ export const fetchMissions = createAsyncThunk('missions/fetchMissions', async ()
 export const MissionsSlice = createSlice({
   name: 'missions',
   initialState,
+
   reducers: {
     joinMission: (state, action) => state.map((mission) => {
       if (mission.id === action.payload) {
