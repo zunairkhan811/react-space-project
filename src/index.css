@@ -246,3 +246,24 @@ button.active-member {
 .c-reserve {
   display: none;
 }
+
+.my-profile {
+  padding: 12px 36px;
+  display: flex;
+}
+.my-missions {
+  width: 50%;
+}
+
+.missions-title {
+  font-weight: 500;
+  padding-left: 28px;
+  font-size: 18px;
+}
+
+.missions-table {
+  table-layout: fixed;
+  border: 2px solid rgb(240, 240, 240);
+  border-collapse: collapse;
+  color: #202020;
+}
