@@ -248,32 +248,38 @@ button.active-member {
 }
 
 .profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.rocket-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr auto;
-  width: 40%;
-  float: right;
-  margin: 40px;
+  width: 50%;
 }
 
-.profile-container h1 {
+.rocket-container h1 {
   font-family: sans-serif;
   padding: 10px 0;
   margin: 4px 1px;
 }
 
-.profile-container ul {
+.rocket-container ul {
   list-style: none;
 }
 
-.profile-container ul li {
+.rocket-container ul li {
   padding: 16px 10px;
   margin: 0 2px;
-  border: 1px solid rgb(98, 93, 98);
+  border: 1px solid rgb(240, 240, 240);
 }
 
 .my-profile {
   padding: 12px 36px;
+  width: 50%;
   display: flex;
 }
 
