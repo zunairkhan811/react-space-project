@@ -28,7 +28,7 @@ export const MissionsSlice = createSlice({
   reducers: {
     joinMission: (state, action) => state.map((mission) => {
       if (mission.id === action.payload) {
-        return { ...mission, reserved: true };
+        return { ...mission, reserved: !mission.reserved };
       }
       return mission;
     }),
