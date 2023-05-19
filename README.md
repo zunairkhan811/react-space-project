@@ -11,22 +11,21 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[React-Space-Project\] ](#-react-space-project-)
-  - [🛠 Built With ](#-built-with-)
+- [📖 React Space Project ](#-react-space-project-)
+  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
     - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
+  - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-    - [Build for production](#build-for-production)
     - [Run tests](#run-tests)
+    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
     - [Author 1](#author-1)
     - [Author 2](#author-2)
-  - [🔭 Future Features ](#-future-features-)
+  - [Future Features ](#future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
@@ -34,39 +33,45 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [React-Space-Project] <a name="about-project"></a>
+# 📖 React Space Project <a name="about-project"></a>
 
-**[React-Space-Project]** In this project Use of API, React and Redux-react has been used used as well as pair-programming by equally dividing tasks with each other and giving reviews to each other professionaly.
+This project is built with React
 
-## 🛠 Built With <a name="HTML, CSS, Javascript and React"></a>
+**[React-Space-Project]** is a web application for a company that provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions. The project consumes  real live data from the SpaceX API.
 
+## :hammer_and_wrench: Built With <a name="built-with"></a>
+- React
+- Redux
 ### Tech Stack <a name="tech-stack"></a>
-
+<details>
+  <summary>Version Control</summary>
+  <ul>
+    <li><a href="https://github.com/">Git Hub</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Visual Studio Code</summary>
+  <ul>
+    <li><a href="https://code.visualstudio.com">Visual Studio Code</a></li>
+  </ul>
+</details>
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/#What_is_HTML">"HTML"</a></li>
-    <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
-    <li><a href="https://www.javascript.com/">"Javascript"</a></li>
     <li><a href="https://fr.legacy.reactjs.org/">"React"</a></li>
+    <li><a href="https://redux-toolkit.js.org/">"Redux-Toolkit"</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
   </ul>
 </details>
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+## Key Features <a name="key-features"></a>
 
-- [x] Create a React space web app
-- [x] Import and export data using API 
-- [x] Redux is used
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Coming Soon]()
+- **Create-react-app**
+- **Linters SetUp**
+- **Follow JavaScript best practices**
+- **Consume data from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,68 +84,57 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-Open terminal on the same folder of the project and run:
+- Visual Studio Code.
+- Node JS.
+- Git bash.
+- GitHub Account.
+- Installation of NPM
 
+<!--
+Example command:
 ```sh
- npm install
+ gem install
 ```
-
+ -->
 ### Setup
 
-Clone this repository to your desired folder:
+Go to github and find the repository react-space-project
+Click on code and copy then go to your gitbash cli on your computer Clone this repository to your desired folder
+
+<!--
+Example commands:
 
 ```sh
-  git https://github.com/zunairkhan811/react-space-project.git
-  cd react-space-project
+  cd my-folder
+  git clone git@github.com:zunairkhan811/react-space-project/.git
 ```
-
+--->
 ### Install
-
 Install this project with:
-
+npm
+Example command:
 ```sh
+  cd my-projectFolder
   npm install
 ```
-
 ### Usage
-
-```
-1. download the project from clone
-2. Install all dependencies using *npm install* in your visual studio terminal
-3. Run *npm run start*
-4. You can see it in the browser
-```
-
-### Build for production
-
-```
-npm run build
-```
+To run the project, execute the following command:
+Open the cloned folder in your git terminal. Then run 'npm start'.
 
 ### Run tests
-
-- ### Linter Tests
-
 To run tests, run the following command:
-
-To check for html errors run:
-
+npm test
+Example command:
 ```sh
-  npx hint .
+  npm test
 ```
-
-To check for css errors run:
-
+### Deployment
+You can deploy this project using:
+GitHub Pages
+Example:
 ```sh
-  npx stylelint "**/*.{css,scss}"
+git@github.com:zunairkhan811/react-space-project.git
 ```
-
-To check for js errors run:
-
-```sh
-  npx eslint "**/*.{js,jsx}"
-```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -162,65 +156,38 @@ To check for js errors run:
 - GitHub: [rosemutai](https://github.com/rosemutai)
 - Twitter: [@__chepngetich](https://twitter.com/__chepngetich)
 - LinkedIn: [rosemutai](https://www.linkedin.com/in/rosemutai/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+## Future Features <a name="future-features"></a>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- [x] Add test to the project using jest
-- [x] Add the live demo for the project
-- [x] Add some new features to the project
+- [ ] **Add the live demo for the project**<br/>
+- [ ] **Add Animation**<br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [https://github.com/zunairkhan811/react-space-project.git](issue page).
-
+Contributions, issues, and feature requests are welcome!<br/>
+Feel free to check the [https://github.com/zunairkhan811/react-space-project.git](issues page)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
-
-If you like this feel free to follow me on github and give this project a star..
-
+If you like this feel free to follow me on github and give this project a star.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - Hat tip to anyone whose code was used.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[How_to_start]**
-
-  - [Register_for_a_full_stack_program_like_Microverse]
-
-- **[How_to_contact_you]**
-
-  - [Follow_me_on_Github]
- -->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/rosemutai/My-Portfolio/blob/main/LICENSE) licensed.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
