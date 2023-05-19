@@ -1,12 +1,17 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from '../components/Navbar';
+import { Provider } from 'react-redux';
+import MyProfile from '../components/MyProfile';
+import { store } from '../redux/store';
 
 it('renders correctly', () => {
   const tree = renderer
     .create(
       <BrowserRouter>
-        <Navbar />
+        <Provider store={store}>
+          <MyProfile />
+        </Provider>
+
       </BrowserRouter>,
 
     )

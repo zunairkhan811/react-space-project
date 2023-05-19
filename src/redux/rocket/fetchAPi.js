@@ -5,7 +5,7 @@ const url = 'https://api.spacexdata.com/v3/rockets';
 const fetchRockets = createAsyncThunk('rockets/fetchRockets', async () => {
   try {
     const res = await fetch(url);
-    const data = await res.json()
+    const data = await res.json();
     const array = Array.from(data).map((rocket) => ({
       id: rocket.id,
       rocket_name: rocket.rocket_name,
