@@ -187,7 +187,7 @@ If you like this feel free to follow me on github and give this project a star.
 <!-- LICENSE -->
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/rosemutai/My-Portfolio/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/zunairkhan811/react-space-project/blob/main/LICENSE) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
