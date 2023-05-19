@@ -6,7 +6,7 @@ import Rockets from './components/Rocket';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="react-space-project">
       <Navbar />
       <Routes>
         <Route path="/" element={<Rockets />} />
