@@ -194,8 +194,6 @@ button.active-member {
 .card-container {
   display: flex;
   flex-direction: column;
-
-  /* border: 1px solid brown; */
   padding: 30px 20px;
   margin: 20px 20px;
 }
@@ -254,16 +252,16 @@ button.active-member {
 }
 
 .rocket-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  flex-direction: column;
   width: 50%;
+  margin: 12px auto;
 }
 
 .rocket-container h1 {
-  font-family: sans-serif;
-  padding: 10px 0;
-  margin: 4px 1px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 12px;
 }
 
 .rocket-container ul {
@@ -282,10 +280,6 @@ button.active-member {
   display: flex;
 }
 
-.my-missions {
-  width: 50%;
-}
-
 .missions-title {
   font-weight: 500;
   padding-left: 28px;
@@ -297,4 +291,8 @@ button.active-member {
   border: 2px solid rgb(240, 240, 240);
   border-collapse: collapse;
   color: #202020;
+}
+
+.missions-table tr {
+  border: 1px solid rgb(240, 240, 240);
 }

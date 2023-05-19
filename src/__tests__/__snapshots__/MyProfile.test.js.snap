@@ -10,11 +10,11 @@ exports[`renders correctly 1`] = `
     <div
       className="my-missions"
     >
-      <h2
+      <h1
         className="missions-title"
       >
         My Missions
-      </h2>
+      </h1>
       <table
         className="missions-table"
       >
